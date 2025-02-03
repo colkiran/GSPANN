@@ -1,0 +1,115 @@
+Topics Covered
+--------------
+Primitive Data Types
+--------------------
+1. Strings
+2. Numbers
+   a. integers
+   b. float
+   c. complex
+3. Boolean
+
+
+Operators
+---------
+1. Arithematic Operators	- +, -, *,/, //, %
+2. Augmentor Operators		- +=, -=, /=, *=  (++, --, **)
+3. Comparison Operators		- ==, >, <, >=, <=, !=
+4. Logical Operators		- and, or, not
+5. Bitwise Operator		- &, |, >>, <<
+6. Ternary Operator		- x if x > y else y
+
+Functions
+----------
+1. Create a function
+2. call a function
+3. pass arguments
+4. variable length arguments (*args, **kwargs)
+6. return value
+7. recursive calls
+8. pass by value
+9. pass by reference
+
+Lambdas 
+High Oder Functions 
+Decorators
+
+
+Pass by value
+Pass by reference
+
+String, Number, Tuple = immutable
+
+List, Dictionary and set = mutable
+
+
+Lambdas
+-------
+lambdas are anonymous functions with a single expression
+
+result of the expression = lambda x, y, z : expression
+
+
+
+
+
+
+IDE - PyCharm, VSCode 
+---------------------
+creates a project (Virtual Environment)
+
+
+Bitwise Operators
+-----------------
+or operator
+-----------
+5 - 0101
+3 - 0011
+   -----
+    0111   - 7
+   -----     
+
+and operator
+------------
+5 - 0101
+3 - 0011
+   ------
+    0001 
+   ------
+
+Xor Operator
+------------
+5 - 0101
+3 - 0011
+    ----
+    0110
+    ----
+
+left shift operator
+-------------------
+5 - 0101  - 01010 => 2 ** 3 + 2 => 8 + 2 =  10
+
+8 - 1000  - 10000 => 16
+
+5 - 0101 << 2 - 010100 = 16 + 4 = 20
+
+5- 0101 >> 1 - 0010
+
+
+
+Assignment
+----------
+use recursive calls and find
+
+1. factorial of a number
+2. generate Fibonacci series for a number
+
+use lambdas and convert the weight from kgs to pounds
+kgs = [10, 150, 200, 5, 50, 85, 500]
+
+
+
+
+
+
+
