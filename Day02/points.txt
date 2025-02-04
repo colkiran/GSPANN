@@ -1,0 +1,24 @@
+
+find the solution
+-----------------
+
+sentence = "the quick brown stress fox  prompt jumps over the lazy dog"
+
+words = list(filter(lambda x : x.replace('t', '') if 't' in x else x, sentence.split()))
+
+
+@SprUsrLogin
+def button_click()
+   update the details
+
+
+
+scope of a variable
+--------------------
+1. local  - lexical in scope - accessible inside a block of code
+2. global
+3. non local
+
+Accessibility in python -> you can print the value of the variable but you cannot change the vale in the variable
+
+HOF or first class functions
