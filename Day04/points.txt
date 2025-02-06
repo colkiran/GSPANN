@@ -1,0 +1,53 @@
+List
+----
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+to add new values
+-----------------
+append   - can add one element into the list
+extend   - can add more than one element (another list)
+insert   - can insert one element anywhere in the list
+
+
+to delete values 
+----------------
+pop
+remove
+clear
+
+other functions
+---------------
+count 
+index
+copy
+sort
+reverse
+
+https://pythontutor.com/visualize.html#mode=edit
+
+
+Assigment
+---------
+sort these months according to the calendar
+
+months = ['dec', 'aug','oct', 'nov', 'jun', 'jan', 'sep', 'feb', 'apr', 'may', 'jul', 'mar']
+
+
+Dictionary
+----------
+
+associative array
+
+index -  0    1    2    3    4    5
+array - 'a', 'b', 'c', 'd', 'e', 'f'
+
+convert the above array into an associative array
+
+{0, 'a', 1: 'b', 2 :'c', 3 :'d', 4 :'e' 5 :"f'}
+
+0, 1, 2, 3, 4, 5 - keys
+'a', 'b', 'c', 'd', 'e', 'f' - values
+
+
+
+

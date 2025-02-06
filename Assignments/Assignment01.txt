@@ -1,0 +1,61 @@
+1. Write a Python program to create Fibonacci series up to n using Lambda.
+
+2. Write a Python program to rearrange positive and negative numbers in a given array using Lambda.
+
+3. Write a Python program to add two given lists using map and lambda.
+
+4. Write a Python program to find palindromes in a given list of strings using Lambda.
+
+5. Write a Python program to determine whether a given year is a leap year.
+
+6. Write a Python program to convert a string to datetime.
+Sample String : Jul 1 2014 2:43PM
+Expected Output : 2014-07-01 14:43:00
+
+7. Write a Python program to print a string five times, with a delay of three seconds.
+
+8. Write a Python program to calculate the difference between the two lists.
+
+9. Write a Python program to access the index of a list.
+
+10. Write a Python program to get the maximum and minimum values of a dictionary.
+
+11. Write a Python program to remove duplicate values from the dictionary.
+
+12. Write a Python program to create and display all combinations of letters, selecting each letter from a different key in a dictionary.
+Sample data : {'1':['a','b'], '2':['c','d']}
+Expected Output:
+ac
+ad
+bc
+bd
+
+13. Write a Python program to unzip a list of tuples into individual lists.
+
+14.  Write a Python program to find the occurrences of the 10 most common words in a given text.
+Sample Output:
+[('Python', 6), ('the', 6), ('and', 5), ('We', 2), ('with', 2), ('The', 1), ('Software', 1), ('Foundation', 1), ('PSF', 1), ('is', 1)]
+
+text = """The Python Software Foundation (PSF) is a 501(c)(3) non-profit 
+corporation that holds the intellectual property rights behind
+the Python programming language. We manage the open source licensing 
+for Python version 2.1 and later and own and protect the trademarks 
+associated with Python. We also run the North American PyCon conference 
+annually, support other Python conferences around the world, and 
+fund Python related development with our grants program and by funding 
+special projects."""
+
+
+15. Write a Python program to create a deque and append a few elements to the left and right. Next, remove some elements from the left and right sides and reverse the deque.
+Sample Output:
+deque(['Red', 'Green', 'White'])
+Adding to the left:
+deque(['Pink', 'Red', 'Green', 'White'])
+Adding to the right:
+deque(['Pink', 'Red', 'Green', 'White', 'Orange'])
+Removing from the right:
+deque(['Pink', 'Red', 'Green', 'White'])
+Removing from the left:
+deque(['Red', 'Green', 'White'])
+Reversing the deque:
+deque(['White', 'Green', 'Red'])
