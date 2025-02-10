@@ -1,0 +1,14 @@
+1. Iterators
+2. Generators
+3. Coroutines
+
+any iterable object is called an iterator - is an object that can be iterated upon
+
+- list
+- dict
+- tuple
+
+
+Lists
+-----
+__iter__()
