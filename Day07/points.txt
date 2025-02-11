@@ -1,0 +1,67 @@
+1. Generator
+2. Coroutines
+
+OOPS
+----
+What is oops? 
+why do we need oops?
+
+
+Opps has 4 strong pillars
+-------------------------
+1. inheritance
+2. polymorphism
+3. abstraction
+4. encapsulation
+
+
+Inheritance
+-----------
+withdraw money from the bank
+----------------------------
+1. self cheque
+2. Demand Draft
+
+early 2000's 
+------------
+Debit Cards
+
+class DebitCards(Withdraw):
+    pass
+
+2005
+----
+online transaction
+
+class OnlineTrans(DebitCards):
+    pass
+
+
+2011
+----
+UPI id
+
+class UPI(OnlinTrans):
+    
+     def cheque():
+	return "do not accept or present cheques"
+
+upiObj = UPI()
+upiObj.cheque(50000)
+
+Polymorphism
+------------
+platinum card	- wd limit - 2.5 lakhs
+gold card	- wd limit - 1 lakh
+shopping card 	- wd limit - 40 thousands
+
+
+Abstraction
+-----------
+
+class attribute or class variables?
+
+
+
+
+
