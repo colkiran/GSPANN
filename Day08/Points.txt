@@ -1,0 +1,22 @@
+write two class methods
+
+1. to set the company head
+2. to get the company head
+
+Static methods
+--------------
+static method are called with the class name
+
+implement @total_ordering
+1. we need to overload == operator (mandatory)
+2. we have to overload one more comparison operator
+
+write a code to overload all the arithmetic operators
+
+
+
+
+
+
+
+
