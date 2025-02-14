@@ -1,0 +1,18 @@
+Abstract Class
+--------------
+
+class Remote(ABC):
+
+   @abstractmethod
+   def power_on:
+	pass   
+
+   @abstractmethod
+   def power_off:
+	pass
+
+   def change_channel:
+	pass
+
+   def change_volume:
+       pass
