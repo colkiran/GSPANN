@@ -1,0 +1,53 @@
+File Handling
+-------------
+open a file and 
+
+1. read
+2. write
+3. append
+
+
+handling text files is easy as it is stored in ascii format, so we don't need drivers
+
+file_handle = open("filename + path", mode)
+
+mode = r - read  - only read the contents of the file
+       w - write - only write data into the file
+       a - append - write data into the file without disturbing the 		    old contents
+
+open the file and randomly read and write contents into the file
+
+FL.seek(pos, whence)
+
+pos - no of bytes to skip
+
+whence - 0    	- BOF
+	 1	- CP
+	 2	- EOF
+
+
+sum of the salaries
+
+File types
+----------
+csv	- text 
+Json	
+XML
+Excel
+Database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
