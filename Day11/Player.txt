@@ -1,0 +1,4 @@
+insert into player (plyname, sport, acheivement) values('Mike Tyson', 'Boxing', '42 Knockouts')
+insert into player (plyname, sport, acheivement) values('Roger Fedrer', 'Tennis', '85 Grandslams')
+insert into player (plyname, sport, acheivement) values('Lionel Messi', 'FootBall', '8 Ballandors')
+insert into player (plyname, sport, acheivement) values('PV Sindhu', 'Badmiton', 'Olympic Bronze')
