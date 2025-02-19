@@ -1,0 +1,20 @@
+Pandas
+------
+
+convert the given data into pandas data frame - on the data frame we can implement all function that pandas gives us
+
+
+1. import the data into pandas data frame
+2. Clean the data - we remove unwanted rows, duplicate rows, format the    	data 
+3. Plot graphs using matplotlib and seaborn
+
+Wes McKinney is the founder of pandas
+
+if the is a single row or a column i.e a single dimension data then we call it as pandas series
+
+
+
+
+
+
+
