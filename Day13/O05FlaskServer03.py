@@ -27,6 +27,19 @@ class Product(Resource):
         products[product][list(data.keys())[0]] = data[list(data.keys())[0]]
         return {product: products[product]}
 
+    def post(self, product):
+        data1 = request.json
+        data = json.loads(data1)
+        products[product] = data
+        return products
+
+    def delete(self, product):
+        if product in products:
+            del products[product]
+            return products
+        else:
+            return {'KeyError': 'Please enter a valid product name'}
+
 
 api.add_resource(Product, "/getproduct/<string:product>")
 

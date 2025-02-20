@@ -48,3 +48,34 @@ for ky, info in res.items():
     print("-" * len(ky))
     for k, v in info.items():
         print(k, "=>", v)
+
+print('post'.center(60, "-"))
+fanta = {'item': '200 ml bottle', 'price': 20, 'qty': 800}
+
+response = requests.post(BASE + 'getproduct/fanta', json=json.dumps(fanta))
+# print(response.json)
+
+res = response.json()
+print(res)
+print("-" * 60)
+
+for ky, info in res.items():
+    print(ky)
+    print("-" * len(ky))
+    for k, v in info.items():
+        print(k, "=>", v)
+    print("-" * 60)
+
+print("delete".center(60, "-"))
+response = requests.delete(BASE + 'getproduct/thumbs_up')
+res = response.json()
+print(res)
+print("-" * 60)
+
+for ky, info in res.items():
+    print(ky)
+    print("-" * len(ky))
+    for k, v in info.items():
+        print(k, "=>", v)
+    print("-" * 60)
+

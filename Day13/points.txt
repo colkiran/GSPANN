@@ -1,0 +1,33 @@
+communicate between two application 
+
+app1 	 text files	app2
+
+XML
+---
+
+XSLT
+
+web services
+------------
+
+light weight Apps - Angular and React (Java Script)
+
+JSON - Java script Object Notation
+
+REST API - Representational State Transfer
+
+Rest API Methods
+----------------
+1. Get - Retrieves the data from a Server essentially 'reading' resource without modifying it
+
+2. Put - completely updates an existing resource by replacing all its data with the provided data
+
+3. Patch - Partially updates an existing resource modifying only specific fields within it
+
+4. Post - Creates a new resource on the server sending the data to initiate the creation
+
+5. Delete - Removes the resource from the server
+
+
+http://127.0.0.1:5000/getproduct/thumbs_up
+
