@@ -1,0 +1,13 @@
+
+dataset - is same ORM which used methods rather than SQL statements
+
+
+JWT (Json Web Tokens) - Authentication
+--------------------------------------
+
+app.config['SECRET_KEY'] = '2927ce7338ba42a4b52f15abbbd658e6'
+
+
+SQL Alchemy - querying multiple tables
+
+
